@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 
-clf = load('filename.joblib')
+clf = load('model.joblib')
 sc = StandardScaler()
 
 def prediction(CreditScore,Geography, Gender, Age, Tenure ,Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary):
